@@ -1,0 +1,68 @@
+# =========================
+# Secrets & Credentials (CRITICAL FOR SAFETY)
+# =========================
+.env
+.env.*
+*.pem
+*.key
+secrets.json
+client_secret.json
+credentials.json
+auth.json
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+.venv/
+env/
+.env_venv/
+ENV/
+
+# =========================
+# Byte-compiled / Optimized / DLL files
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# =========================
+# IDEs & OS Specifics
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs, Uploads & Local Data
+# =========================
+*.log
+# Ignore test PDFs you might upload while testing the API locally
+*.pdf
+# If you add local document storage later:
+uploads/
+test_data/
+*.sqlite3
+db.sqlite3
+
+# =========================
+# Testing, Profiling & Coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+
+# =========================
+# Distribution / Packaging
+# =========================
+dist/
+build/
+*.egg-info/
